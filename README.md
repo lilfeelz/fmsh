@@ -8,6 +8,12 @@ $ fmsh 'find files larger than 100 MB'
 find . -type f -size +100M
 ```
 
+## Status
+
+Experimental and unreliable. The on-device model often returns wrong or unsafe commands,
+and the candidates are not validated. Treat `fmsh` as a prompt helper, not an oracle, and
+review every command before running it.
+
 ## Requirements
 
 macOS 26+, Apple silicon, Apple Intelligence enabled.
